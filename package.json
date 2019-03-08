@@ -3,11 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@microsoft/office-js-helpers": "^1.0.2",
+    "core-js": "^2.6.1",
+    "es6-promise": "^4.2.6",
+    "office-ui-fabric-react": "^6.139.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
+  "devDependencies": {
+    "@types/es6-collections": "^0.5.29",
+    "@types/es6-promise": "0.0.32",
+    "@types/office-js": "0.0.158",
+    "@types/office-runtime": "^1.0.7",
+    "office-toolbox": "^0.1.1"
+  },
   "scripts": {
+    "sideload": "office-toolbox sideload -m manifest.xml -a excel",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
