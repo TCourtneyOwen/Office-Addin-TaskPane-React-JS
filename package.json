@@ -19,6 +19,7 @@
     "@types/office-js": "0.0.158",
     "@types/office-runtime": "^1.0.7",
     "@types/react-hot-loader": "^4.1.0",
+    "@babel/core": "7.2.2",
     "office-toolbox": "^0.1.1"
   },
   "scripts": {
