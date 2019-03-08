@@ -1,4 +1,4 @@
-/* global Excel, Office */
+/* global Excel */
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
