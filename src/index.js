@@ -4,6 +4,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'office-ui-fabric-react/dist/css/fabric.min.css';
+// import { AppContainer } from 'react-hot-loader';
+import { initializeIcons } from 'office-ui-fabric-react/lib/Icons';
+
+initializeIcons();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
